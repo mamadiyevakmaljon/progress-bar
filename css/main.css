@@ -1,0 +1,12 @@
+.del{
+    position: relative;
+    left: 230px;
+    bottom: 29px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+
+strong{
+    cursor: pointer;
+}

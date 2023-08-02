@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-10 offset-1 mt-3">
+            <div class="card">
+                <div class="card-header">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Type here..." id="task">
+                        <div class="input-group-append">
+                            <button class="btn btn-success" onclick="addTask()" id="button">Add</button>
+                        </div>
+                    </div>
+
+                    <div id="alert"></div>
+                </div>
+
+                <div class="card-body">
+                    <div class="progress progress-bar-striped">
+                        <div class="progress-bar" id="progress">
+
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6" id="todo"></div>
+
+                        <div class="col-6" id="done"></div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+
+
+
+
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
